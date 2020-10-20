@@ -1,6 +1,6 @@
 # Pythonanny
 
-	Pythonanny is a simple set of scripts that save all your uncaught exceptions (in Python) in a log for reflection and reference.  The intent is that with a few tools for reflecting on this data, the novice hacker can get a sense of where the largest gaps in their knowledge lie, so they can focus on learning those first.  This is a tool made specifically with the beginner in mind, and aims to fill the gap between those beginner and intermediate stages when tailored advice is necessary, but difficult to come by.
+Pythonanny is a simple set of scripts that save all your uncaught exceptions (in Python) in a log for reflection and reference.  The intent is that with a few tools for reflecting on this data, the novice hacker can get a sense of where the largest gaps in their knowledge lie, so they can focus on learning those first.  This is a tool made specifically with the beginner in mind, and aims to fill the gap between those beginner and intermediate stages when tailored advice is necessary, but difficult to come by.
 	
 # Installation
 
