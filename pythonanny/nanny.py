@@ -3,13 +3,11 @@ import traceback
 import uuid
 import datetime
 import sys
-import subprocess
-import argparse
-import pdb
+import os
 
-# TODO: put nanny.log somewhere sane.
-# TODO: implement sane checking that nanny.log was created properly.
-logfile = "nanny.log"
+logfile = 'nanny.log' 
+logdir = os.path.expanduser('~/Documents/')
+logpath = logdir + logfile
 
 class Structured_Error:
     def __init__(self, **kwargs):
@@ -21,7 +19,7 @@ class Structured_Error:
 
 def nanny_log(type_, val, tb):
 
-    with open(logfile, "a") as f:
+    with open(logpath, "a") as f:
         print(
             Structured_Error(
                 id='%s' % uuid.uuid4(),
@@ -32,13 +30,9 @@ def nanny_log(type_, val, tb):
             ), file=f)
 
 
+# TODO: May want to remove the print_exception, depending on
+# how this behaves with the compound exception hook impl
 def nanny_exception_hook(type_, val, tb):
-    print("python nanny is saving your exceptions")
-    traceback.print_exception(type_, val, tb)
+    print("python nanny is saving your exceptions to " + logpath)
     nanny_log(type_, val, tb)
-    exit()
 
-sys.excepthook = nanny_exception_hook
-
-if __name__ == "__main__":
-    init()

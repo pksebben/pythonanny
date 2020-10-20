@@ -21,3 +21,5 @@
 {"id": "6e099ee5-18ae-4539-bb49-d4381aef1e9d", "stack_trace": ["  File \"failtest.py\", line 14, in <module>\n    raise NannyTestError\n"], "error_type": "<class '__main__.NannyTestError'>", "timestamp": "2020-10-16 16:38:02.223875"}
 {"id": "ff473101-c7b9-4aa4-b384-dc0b96f49dcf", "stack_trace": ["  File \"failtest.py\", line 14, in <module>\n    raise NannyTestError\n"], "error_type": "<class '__main__.NannyTestError'>", "timestamp": "2020-10-16 16:44:11.572966"}
 {"id": "5a8fec4b-0d5b-49a5-8cba-acde3b14b0a9", "stack_trace": ["  File \"failtest.py\", line 14, in <module>\n    raise NannyTestError\n"], "error_type": "<class '__main__.NannyTestError'>", "timestamp": "2020-10-16 16:44:36.963022"}
+{"id": "4b2b1e91-71a6-4200-bfc2-86d300aae4c7", "stack_trace": ["  File \"<stdin>\", line 1, in <module>\n"], "error_type": "<class 'Exception'>", "timestamp": "2020-10-20 10:02:02.593323"}
+{"id": "012128f5-d4e9-46e6-9ffc-98ffbd04939d", "stack_trace": ["  File \"<stdin>\", line 1, in <module>\n"], "error_type": "<class 'Exception'>", "timestamp": "2020-10-20 10:02:02.594223"}

@@ -14,17 +14,12 @@
 		
 # Usage
 
-	To connect pythonanny to a project, this pattern must be used:
+	To get started with Pythonanny, simply run:
 	
-	
-	```
-	#main.py
-	import nanny.py
-	try:
-		main()
-	except Exception as e:
-		nanny.nanny_log(e)
-		raise
+	```bash
+	python3 setup.py --user
 	```
 	
-	From there, just keep coding!  All errors that are thrown when running your main() method will get stored in pythonanny.log and continue to behave normally.  When you feel like you've hit a wall, or you feel ready to deep-dive into a topic you want a better understanding of, just navigate to the root directory of your project and run python nannytalk.py.
+	the ``` --user ``` ensures that pythonanny gets into your user-specific site-packages directory, which is where it needs to be to attach to your coding environment.
+	
+	That's it! Pythonanny is now saving all uncaught exceptions for later review, in a file called nanny.log.  Located by default in your Documents folder.

@@ -1,2 +1,0 @@
-{"id": "39be0131-7ee3-4d8a-8ee4-c414689e8409", "stack_trace": ["  File \"failtest.py\", line 10, in <module>\n    raise NannyTestError\n"], "error_type": "<class '__main__.NannyTestError'>", "timestamp": "2020-08-30 17:15:36.467348"}
-{"id": "a058bac0-732d-412c-931e-0ffe77030a19", "stack_trace": ["  File \"failtest.py\", line 10, in <module>\n    raise NannyTestError\n"], "error_type": "<class '__main__.NannyTestError'>", "timestamp": "2020-08-30 17:28:39.138712"}
